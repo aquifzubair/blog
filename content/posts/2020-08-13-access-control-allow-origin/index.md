@@ -81,7 +81,7 @@ There are three types of request headers.
 3. **Access-Control-Allow-Methods**: This specifies the set of methods that can be used for client requests. If the server wants to give access to different methods, it may be specified as comma-separated.
    e.g { access-control-allow-methods': GET, POST, DELETE }
 
-There are whole other types of response headers, You can see on this [MDN link]('https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS):
+There are whole other types of response headers, You can see on this [MDN link](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS):
 
 ## How to handle CORS?
 
@@ -92,4 +92,4 @@ If you want to specify that which origin should access the resource of your serv
 ## Summary
 
 I tried my best to convey my knowledge to you. I hope I was able to provide you at least a basic understanding of cors and how does it work? If You want to go deep more into it, follow the
-[MDN Documentation]('https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). This is a very good place to start.
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). This is a very good place to start.
